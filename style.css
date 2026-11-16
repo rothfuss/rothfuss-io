@@ -1,0 +1,21 @@
+/* Deliberately minimal. The page should read fine with this file deleted. */
+body {
+  max-width: 42em;
+  margin: 1em auto;
+  padding: 0 16px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.45;
+  color: #000;
+  background: #fff;
+}
+a { color: #00e; }
+a:visited { color: #551a8b; }
+hr { border: 0; border-top: 1px solid #888; }
+td { padding: 0 1em 0 0; vertical-align: top; }
+dd { margin-left: 1.5em; }
+@media (prefers-color-scheme: dark) {
+  body { color: #ddd; background: #111; }
+  a { color: #8ab4ff; }
+  a:visited { color: #c58af9; }
+}
